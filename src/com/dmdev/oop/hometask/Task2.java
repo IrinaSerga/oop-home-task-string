@@ -11,6 +11,7 @@ package com.dmdev.oop.hometask;
  * “Привет 8, как 1 2 твои дела? Может4, сделать 3 дело?” -> 18 (8+1+2+4+3)
  */
 
+
 public class Task2 {
 
     public static int[] digitsFromString (String input) {
