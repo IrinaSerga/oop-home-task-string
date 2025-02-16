@@ -12,6 +12,7 @@ package com.dmdev.oop.hometask;
  */
 
 
+
 public class Task2 {
 
     public static int[] digitsFromString (String input) {

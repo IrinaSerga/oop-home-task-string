@@ -10,6 +10,7 @@ package com.dmdev.oop.hometask;
  * "abc Cpddd Dio OsfWw" -> "ABCPDIOSFW"
  */
 
+
 public class Task1 {
 
 
