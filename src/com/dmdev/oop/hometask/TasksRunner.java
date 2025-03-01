@@ -1,6 +1,7 @@
 package com.dmdev.oop.hometask;
 
 
+
 public class TasksRunner {
 
     private static final String inputText = "abc Cpddd Dio OsfWw";

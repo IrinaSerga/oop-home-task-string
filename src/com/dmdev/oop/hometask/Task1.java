@@ -10,6 +10,7 @@ package com.dmdev.oop.hometask;
  * "abc Cpddd Dio OsfWw" -> "ABCPDIOSFW"
  */
 
+
 public class Task1 {
 
 
@@ -35,5 +36,24 @@ public class Task1 {
         return result.toString(); // или так String.valueOf(result);
     }
 
+
+    /**
+     * разделить на методы
+     * можно было вынести в отдельный метод удаления повторяющихся символов
+     *   private static StringBuilder removeDuplicateCharacters(char[] charArray) {
+     *         StringBuilder result = new StringBuilder();
+     *         char previousChar = 0;
+     *         // перебор массива поштучно
+     *         for (char c : charArray) {
+     *             // сравнение текущего и предыдуш символов
+     *             if (c != previousChar) {
+     *                 // счетчик билдера
+     *                 result.append(c);
+     *                 // присваиваем тек символ для след итерации сравнения
+     *                 previousChar = c;
+     *             }
+     *         }
+     *         return result;
+     */
 
 }

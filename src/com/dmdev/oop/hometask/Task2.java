@@ -11,7 +11,11 @@ package com.dmdev.oop.hometask;
  * “Привет 8, как 1 2 твои дела? Может4, сделать 3 дело?” -> 18 (8+1+2+4+3)
  */
 
+
+
 public class Task2 {
+
+    private final  static char maxDigit = '9';
 
     public static int[] digitsFromString (String input) {
         //Дана строка с текстом, в котором есть цифры от 0 до 9.
@@ -20,7 +24,7 @@ public class Task2 {
         // проверить цифра ли ты ?
         StringBuilder resultDigits = new StringBuilder();
         for (char c : charArray) {
-            if (c >= '0' && c <= '9') {
+            if (c >= '0' && c <= maxDigit) {
                 resultDigits.append(c);
             }
 
