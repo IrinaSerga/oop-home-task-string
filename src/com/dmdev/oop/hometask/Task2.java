@@ -15,6 +15,8 @@ package com.dmdev.oop.hometask;
 
 public class Task2 {
 
+    private final  static char maxDigit = '9';
+
     public static int[] digitsFromString (String input) {
         //Дана строка с текстом, в котором есть цифры от 0 до 9.
         //строку перегнать в массив символов
@@ -22,7 +24,7 @@ public class Task2 {
         // проверить цифра ли ты ?
         StringBuilder resultDigits = new StringBuilder();
         for (char c : charArray) {
-            if (c >= '0' && c <= '9') {
+            if (c >= '0' && c <= maxDigit) {
                 resultDigits.append(c);
             }
 
